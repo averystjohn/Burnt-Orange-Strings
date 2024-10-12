@@ -1,0 +1,258 @@
+body {
+  overflow-x: hidden;
+  background-color: #dcd6F7;
+}
+
+#hero-section {
+  background-image: 
+    linear-gradient(rgba(191,87,0,0.3), rgba(191,87,0,0.3)),
+    url("https://outwitly.com/wp-content/uploads/2023/01/01-12-2023_BlogPostHeader-1280x852.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  text-shadow: 1px 1px #ffffff;
+}
+
+#hero-section img {
+  border-radius: 50%;
+  border: 0.7em solid rgba(191,87,0,0.7);
+  width: clamp(20vw, 15em, 40vw);
+}
+
+#hero-section h1 {
+  color: #bf5700;
+  font-family: "Marcellus", serif;
+}
+
+#hero-section p {
+  color: #bf5700;
+  font-family: "Montserrat", sans-serif;
+}
+
+#footer-section {
+  text-align: center;
+  background-color: #bf5700;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 4rem;
+}
+
+#footer-section p {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+i {
+  color: #F4EEFF;
+  font-size: 2rem;
+}
+
+@media screen and (orientation: landscape) {
+  i {
+    margin-left: 20px;
+  }
+}
+
+.nav-item {
+  color: #F4EEFF;
+  margin-right: 20px;
+}
+
+#about-section {
+  background-color: #ffffff;
+  padding: 1rem;
+}
+
+@media (min-width: 768px) {
+  #about-section {
+    padding: 2rem 4rem 4rem 4rem;
+  }
+}
+
+#about-section h1 {
+  text-align: center;
+  font-family: "Montserrat", serif;
+  color: #bf5700;
+  padding-bottom: 1rem;
+}
+
+@media (max-width: 767px) {
+  #about-section h1 {
+    padding-top: 0.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  #about-section h1 {
+    padding-bottom: 2rem;
+  }
+}
+
+#about-section img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+}
+
+#about-section p {
+  padding: 1em;
+  font-family: Arial, sans-serif;
+}
+
+#skills-section {
+  background-color: #dcd6F7;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  #skills-section {
+    padding: 2rem 0;
+  }
+}
+
+@media (min-width: 768px) {
+  #skills-section {
+    padding: 3rem 4rem 5rem 4rem;
+  }
+}
+
+#skills-section i {
+  font-size: 4rem;
+  color: #424874;
+}
+
+#skills-section h1 {
+  padding-bottom: 1rem;
+  font-family: "Montserrat", sans-serif;
+  color: #424874;
+}
+
+@media (min-width: 768px) {
+  #skills-section h1 {
+    padding-bottom: 2rem;
+  }
+}
+
+#skills-section p {
+  font-family: Arial, sans-serif;
+}
+
+#contact-section {
+  background-color: #f4eeff;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  #contact-section {
+    padding: 1rem 0 2rem 0;
+  }
+}
+
+@media (min-width: 768px) {
+  #contact-section {
+    padding: 2rem 0 6rem 0;
+  }
+}
+
+#contact-section h1 {
+  color: #424874;
+  padding: 1rem 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+@media (min-width: 768px) {
+  #contact-section h1 {
+    padding-bottom: 3rem;
+  }
+}
+
+#contact-section i {
+  color: #AFB9E4;
+  font-size: 4rem;
+}
+
+#contact-section i:hover {
+  color: #424874;
+}
+
+#carousel-section {
+  background-color: #dcd6F7;
+}
+
+@media (max-width: 767px) {
+  #carousel-section {
+    padding-top: 2rem;
+    margin-bottom: 3rem;
+  }
+}
+
+@media (min-width: 768px) {
+  #carousel-section {
+    padding-top: 3rem;
+    margin-bottom: 4rem;
+  }
+}
+
+#carousel-section h1 {
+  color: #424874;
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+  #carousel-section h1 {
+    padding-bottom: 2rem;
+  }
+}
+
+.carousel-item:after {
+  content:"";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(10,0,30,0.1);
+}
+
+.carousel-caption p {
+  color: #424874;
+  font-size: 1rem;
+}
+
+.carousel-caption h2 {
+  color: #424874;
+  text-shadow: 2px 1px 1px white;
+  font-size: 2rem;
+}
+
+.carousel-caption {
+  z-index: 1;
+}
+
+#hero-section,
+#footer-section,
+#about-section,
+#skills-section,
+#contact-section,
+#carousel-section {
+  overflow: hidden;
+}
+
+#mission-target,
+#skills-target,
+#contact-target,
+#carousel-target {
+  position: relative;
+  top: -100px;
+}
