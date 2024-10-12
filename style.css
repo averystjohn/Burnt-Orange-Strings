@@ -21,10 +21,10 @@ body {
 }
 
 #hero-section img {
-/*   width: clamp(20vw, 15em, 40vw); */
   border-radius: 50%;
-  width: clamp(13em, 35vw, 60vw);
-  height: clamp(13em, 35vw, 60vw);
+  width: clamp(18em, 35vw, 60vw);
+  height: clamp(18em, 35vw, 60vw);
+  margin-top: 2em;
 }
 
 #hero-section h1 {
