@@ -22,8 +22,8 @@ body {
 
 #hero-section img {
   border-radius: 50%;
-  width: clamp(15em, 30vw, 45vw);
-  height: clamp(15em, 30vw, 45vw);
+  width: clamp(15em, 30vw, 40vw);
+  height: clamp(15em, 30vw, 40vw);
   margin-top: 4em;
 }
 
