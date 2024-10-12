@@ -6,7 +6,7 @@ body {
 #hero-section {
   background-image: 
     linear-gradient(rgba(191,87,0,0.3), rgba(191,87,0,0.3)),
-    url(https://static2.gensler.com/uploads/image/75156/Moody_Center_1024x576_1650656957.jpg);
+    url("https://static2.gensler.com/uploads/image/75156/Moody_Center_1024x576_1650656957.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
