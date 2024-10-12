@@ -6,7 +6,7 @@ body {
 #hero-section {
   background-image: 
     linear-gradient(rgba(191,87,0,0.3), rgba(191,87,0,0.3)),
-    url("https://outwitly.com/wp-content/uploads/2023/01/01-12-2023_BlogPostHeader-1280x852.jpg");
+    url(images/poster.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
