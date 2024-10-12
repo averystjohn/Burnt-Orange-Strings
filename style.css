@@ -68,18 +68,18 @@ i {
   margin-right: 20px;
 }
 
-#about-section {
+#show-section {
   background-color: #ffffff;
   padding: 1rem;
 }
 
 @media (min-width: 768px) {
-  #about-section {
+  #show-section {
     padding: 2rem 4rem 4rem 4rem;
   }
 }
 
-#about-section h1 {
+#show-section h1 {
   text-align: center;
   font-family: "Montserrat", serif;
   color: #bf5700;
@@ -87,64 +87,64 @@ i {
 }
 
 @media (max-width: 767px) {
-  #about-section h1 {
+  #show-section h1 {
     padding-top: 0.5rem;
   }
 }
 
 @media (min-width: 768px) {
-  #about-section h1 {
+  #show-section h1 {
     padding-bottom: 2rem;
   }
 }
 
-#about-section img {
+#show-section img {
   width: 100%;
   height: auto;
   object-fit: cover;
   object-position: center;
 }
 
-#about-section p {
+#show-section p {
   padding: 1em;
   font-family: Arial, sans-serif;
 }
 
-#skills-section {
+#about-section {
   background-color: #dcd6F7;
   text-align: center;
 }
 
 @media (max-width: 767px) {
-  #skills-section {
+  #about-section {
     padding: 2rem 0;
   }
 }
 
 @media (min-width: 768px) {
-  #skills-section {
+  #about-section {
     padding: 3rem 4rem 5rem 4rem;
   }
 }
 
-#skills-section i {
+#about-section i {
   font-size: 4rem;
   color: #424874;
 }
 
-#skills-section h1 {
+#about-section h1 {
   padding-bottom: 1rem;
   font-family: "Montserrat", sans-serif;
   color: #424874;
 }
 
 @media (min-width: 768px) {
-  #skills-section h1 {
+  #about-section h1 {
     padding-bottom: 2rem;
   }
 }
 
-#skills-section p {
+#about-section p {
   font-family: Arial, sans-serif;
 }
 
@@ -186,74 +186,17 @@ i {
   color: #424874;
 }
 
-#carousel-section {
-  background-color: #dcd6F7;
-}
-
-@media (max-width: 767px) {
-  #carousel-section {
-    padding-top: 2rem;
-    margin-bottom: 3rem;
-  }
-}
-
-@media (min-width: 768px) {
-  #carousel-section {
-    padding-top: 3rem;
-    margin-bottom: 4rem;
-  }
-}
-
-#carousel-section h1 {
-  color: #424874;
-  font-family: "Montserrat", sans-serif;
-  padding-bottom: 1rem;
-}
-
-@media (min-width: 768px) {
-  #carousel-section h1 {
-    padding-bottom: 2rem;
-  }
-}
-
-.carousel-item:after {
-  content:"";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(10,0,30,0.1);
-}
-
-.carousel-caption p {
-  color: #424874;
-  font-size: 1rem;
-}
-
-.carousel-caption h2 {
-  color: #424874;
-  text-shadow: 2px 1px 1px white;
-  font-size: 2rem;
-}
-
-.carousel-caption {
-  z-index: 1;
-}
-
 #hero-section,
 #footer-section,
 #about-section,
-#skills-section,
-#contact-section,
-#carousel-section {
+#show-section,
+#contact-section {
   overflow: hidden;
 }
 
-#mission-target,
-#skills-target,
-#contact-target,
-#carousel-target {
+#show-target,
+#about-target,
+#contact-target {
   position: relative;
   top: -100px;
 }
