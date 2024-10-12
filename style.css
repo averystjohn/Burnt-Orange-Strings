@@ -22,7 +22,7 @@ body {
 
 #hero-section img {
 /*   width: clamp(20vw, 15em, 40vw); */
-  width: 50vw;
+  width: clamp(15em, 40vw, 70vw);
 }
 
 #hero-section h1 {
