@@ -1,6 +1,6 @@
 body {
   overflow-x: hidden;
-  background-color: #dcd6F7;
+  background-color: #f8971f;
 }
 
 #hero-section {
@@ -142,7 +142,7 @@ i {
 
 #about-section p {
   font-family: Arial, sans-serif;
-  color: #ffffff
+  color: #ffffff;
 }
 
 #socials-section {
