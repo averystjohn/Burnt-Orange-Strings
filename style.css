@@ -148,41 +148,41 @@ i {
   font-family: Arial, sans-serif;
 }
 
-#contact-section {
+#socials-section {
   background-color: #f4eeff;
   text-align: center;
 }
 
 @media (max-width: 767px) {
-  #contact-section {
+  #socials-section {
     padding: 1rem 0 2rem 0;
   }
 }
 
 @media (min-width: 768px) {
-  #contact-section {
+  #socials-section {
     padding: 2rem 0 6rem 0;
   }
 }
 
-#contact-section h1 {
+#socials-section h1 {
   color: #424874;
   padding: 1rem 0;
   font-family: "Montserrat", sans-serif;
 }
 
 @media (min-width: 768px) {
-  #contact-section h1 {
+  #socials-section h1 {
     padding-bottom: 3rem;
   }
 }
 
-#contact-section i {
+#socials-section i {
   color: #AFB9E4;
   font-size: 4rem;
 }
 
-#contact-section i:hover {
+#socials-section i:hover {
   color: #424874;
 }
 
@@ -190,13 +190,13 @@ i {
 #footer-section,
 #about-section,
 #show-section,
-#contact-section {
+#socials-section {
   overflow: hidden;
 }
 
 #show-target,
 #about-target,
-#contact-target {
+#socials-target {
   position: relative;
   top: -100px;
 }
