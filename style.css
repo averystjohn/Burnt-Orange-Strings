@@ -24,6 +24,7 @@ body {
 /*   width: clamp(20vw, 15em, 40vw); */
   border-radius: 50%;
   width: clamp(15em, 40vw, 70vw);
+  height: clamp(15em, 40vw, 70vw);
 }
 
 #hero-section h1 {
