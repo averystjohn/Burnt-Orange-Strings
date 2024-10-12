@@ -21,8 +21,6 @@ body {
 }
 
 #hero-section img {
-  border-radius: 50%;
-  border: 0.7em solid rgba(191,87,0,0.7);
   width: clamp(20vw, 15em, 40vw);
 }
 
