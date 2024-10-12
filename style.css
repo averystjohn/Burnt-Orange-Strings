@@ -79,7 +79,7 @@ i {
   }
 }
 
-#show-section h1 {
+#show-section h1, h2 {
   text-align: center;
   font-family: "Montserrat", serif;
   color: #bf5700;
