@@ -147,7 +147,7 @@ i {
 }
 
 #about-image {
-  height: 50px;
+  width: clamp(17em, 33vw, 43vw);
 }
 
 #socials-section {
