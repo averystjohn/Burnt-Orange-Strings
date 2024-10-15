@@ -146,6 +146,10 @@ i {
   padding: 1em;
 }
 
+#about-image {
+  height: 50px;
+}
+
 #socials-section {
   background-color: #ffffff;
   text-align: center;
