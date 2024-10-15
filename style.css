@@ -127,7 +127,7 @@ i {
   }
 }
 
-#about-section h1 {
+#about-section h1, h2 {
   padding-bottom: 1rem;
   font-family: "New Rocker", system-ui;
   color: #ffffff;
