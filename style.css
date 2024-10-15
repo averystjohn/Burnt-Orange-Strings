@@ -163,7 +163,7 @@ i {
 }
 
 #about-image {
-  width: clamp(17em, 33vw, 43vw);
+  width: clamp(16em, 30vw, 40vw);
 }
 
 #socials-section {
