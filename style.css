@@ -127,7 +127,14 @@ i {
   }
 }
 
-#about-section h1, h2 {
+#about-section h1 {
+  padding-bottom: 1rem;
+  font-family: "New Rocker", system-ui;
+  color: #ffffff;
+  text-shadow: 1px 1px 2px #f8971f;
+}
+
+#about-section h2 {
   padding-bottom: 1rem;
   font-family: "New Rocker", system-ui;
   color: #ffffff;
