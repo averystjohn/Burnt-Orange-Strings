@@ -135,6 +135,12 @@ i {
   }
 }
 
+@media (min-width: 768px) {
+  #about-section .col-md-6 {
+    text-align: left;
+  }
+}
+
 #about-section h1 {
   padding-bottom: 1rem;
   font-family: "New Rocker", system-ui;
