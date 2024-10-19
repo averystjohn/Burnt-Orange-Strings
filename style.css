@@ -123,6 +123,11 @@ i {
   text-align: center;
 }
 
+#about-section img {
+  border-radius: 20%;
+  border: #ffffff;
+}
+
 @media (max-width: 767px) {
   #about-section {
     padding: 2rem 0;
