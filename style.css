@@ -145,6 +145,7 @@ i {
   border-radius: 20%;
   border: 1rem solid #ffffff;
   min-width: 400px;
+  width: clamp(20em, 40vw, 50vw);
 }
 
 @media (max-width: 767px) {
@@ -184,10 +185,6 @@ i {
   font-family: Arial, sans-serif;
   color: #ffffff;
   padding: 1em;
-}
-
-#about-image {
-  width: clamp(18em, 32vw, 42vw);
 }
 
 #socials-section {
