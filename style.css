@@ -120,10 +120,12 @@ i {
 
 .large-screen {
     display: block;
+    min-width: 350px;
 }
 
 .small-screen {
     display: none;
+    max-width: 250px;
 }
 
 @media (max-width: 768px) {
