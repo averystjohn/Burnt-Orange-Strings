@@ -144,7 +144,7 @@ i {
 #about-section img {
   border-radius: 20%;
   border: 1rem solid #ffffff;
-  min-width: 400px;
+  min-width: 500px;
 }
 
 @media (max-width: 767px) {
