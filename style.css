@@ -116,6 +116,7 @@ i {
 #show-section p {
   padding: 1em;
   font-family: Arial, sans-serif;
+  margin-top: 1em;
 }
 
 .large-screen {
