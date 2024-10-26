@@ -118,6 +118,23 @@ i {
   font-family: Arial, sans-serif;
 }
 
+.large-screen {
+    display: block;
+}
+
+.small-screen {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .large-screen {
+        display: none;
+    }
+    .small-screen {
+        display: block;
+    }
+}
+
 #about-section {
   background: linear-gradient(135deg, #bf5700, #e37b42);
   text-align: center;
