@@ -107,7 +107,7 @@ i {
 }
 
 #show-section img {
-  width: 100%;
+  width: 95%;
   height: auto;
   object-fit: cover;
   object-position: center;
@@ -144,6 +144,7 @@ i {
 #about-section img {
   border-radius: 20%;
   border: 1rem solid #ffffff;
+  width: 35%;
 }
 
 @media (max-width: 767px) {
