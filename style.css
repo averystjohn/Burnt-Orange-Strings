@@ -188,6 +188,12 @@ i {
   margin-top: 2em;
 }
 
+.about-bio {
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+  padding: 1em;
+}
+
 #socials-section {
   background-color: #ffffff;
   text-align: center;
