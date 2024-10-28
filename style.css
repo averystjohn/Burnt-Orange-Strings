@@ -22,8 +22,8 @@ body {
 #hero-section img {
   border-radius: 50%;
   border: 1rem solid #bf5700;
-  width: clamp(20em, 38vw, 43vw);
-  height: clamp(20em, 38vw, 43vw);
+  width: clamp(17em, 33vw, 43vw);
+  height: clamp(17em, 33vw, 43vw);
   object-fit: cover;
   margin-top: 4em;
 }
