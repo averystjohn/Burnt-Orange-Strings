@@ -23,9 +23,9 @@ body {
   border-radius: 50%;
   border: 1rem solid #bf5700;
   width: clamp(17em, 33vw, 43vw);
-  object-fit: cover;
+  height: clamp(17em, 33vw, 43vw);
+  object-fit: contain;
   max-width: 400px;
-  width: clamp(20em, 40vw, 50vw);
   margin-top: 4em;
 }
 
