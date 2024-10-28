@@ -20,7 +20,7 @@ body {
 }
 
 #hero-section img {
-  border-radius: 50%;
+  border-radius: 30%;
   border: solid 1rem #bf5700;
   width: clamp(17em, 33vw, 43vw);
   height: clamp(17em, 33vw, 43vw);
