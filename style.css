@@ -143,12 +143,12 @@ i {
   text-align: center;
 }
 
-#about-section img {
+/* #about-section img {
   border-radius: 20%;
   border: 1rem solid #ffffff;
   min-width: 400px;
   width: clamp(20em, 40vw, 50vw);
-}
+} */
 
 @media (max-width: 767px) {
   #about-section {
@@ -183,12 +183,12 @@ i {
   }
 }
 
-.eric-bio {
+/* .eric-bio {
   font-family: Arial, sans-serif;
   color: #ffffff;
   padding: 1em;
   margin-top: 2em;
-}
+} */
 
 .about-bio {
   font-family: Arial, sans-serif;
@@ -252,7 +252,6 @@ i {
 
 .carousel-item img {
   max-width: 80%;
-  border: none;
 }
 
 .carousel-item:after {
@@ -262,6 +261,7 @@ i {
   bottom: 0;
   left: 0;
   right: 0;
+  background: #bf5700;
 }
 
 #hero-section,
