@@ -251,7 +251,14 @@ i {
 }
 
 .carousel-item img {
-  max-width: 80%;
+  max-width: 40%;
+}
+
+.carousel-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 
 .carousel-item:after {
@@ -262,6 +269,7 @@ i {
   left: 0;
   right: 0;
   background: #bf5700;
+  z-index: -1;
 }
 
 #hero-section,
