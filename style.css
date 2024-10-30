@@ -275,7 +275,7 @@ i {
   z-index: -1;
 }
 
-#about-section {
+.carousel-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
