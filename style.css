@@ -253,13 +253,13 @@ i {
 #carouselExampleIndicators {
   max-width: 50% !important;
   margin: auto;
+  border: 5px solid #ffffff;
+  border-radius: 15px;
 }
 
 .carousel-wrapper {
   display: flex;
   justify-content: center;
-  border: 5px solid #ffffff;
-  border-radius: 15px;
 }
 
 .carousel-item img {
