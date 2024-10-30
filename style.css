@@ -251,8 +251,13 @@ i {
 }
 
 #carouselExampleIndicators {
-  max-width: 40% !important;
+  max-width: 50% !important;
   margin: auto;
+}
+
+.carousel-wrapper {
+  display: flex;
+  justify-content: center;
 }
 
 .carousel-item img {
