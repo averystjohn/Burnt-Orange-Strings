@@ -251,7 +251,8 @@ i {
 }
 
 #carouselExampleIndicators {
-  max-width: 300px; !important
+  max-width: 40% !important;
+  margin: auto;
 }
 
 .carousel-item img {
