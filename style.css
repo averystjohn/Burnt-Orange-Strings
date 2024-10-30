@@ -236,6 +236,42 @@ i {
   color: #f8971f;
 }
 
+@media (max-width: 767px) {
+  #carousel-section {
+    padding-top: 2rem;
+    margin-bottom: 3rem;
+  }
+}
+
+@media (min-width: 768px) {
+  #carousel-section {
+    padding-top: 3rem;
+    margin-bottom: 4rem;
+  }
+}
+
+#carousel-section h1 {
+  color: #424874;
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+  #carousel-section h1 {
+    padding-bottom: 2rem;
+  }
+}
+
+.carousel-item:after {
+  content:"";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(10,0,30,0.1);
+}
+
 #hero-section,
 #footer-section,
 #about-section,
