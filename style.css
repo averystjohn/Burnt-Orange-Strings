@@ -250,12 +250,12 @@ i {
   }
 }
 
-.carousel-item img {
-  width: 100%;
+#carouselExampleIndicators {
+  max-width: 40%;
 }
 
-.carousel-image-wrapper {
-  max-width: 50%;
+.carousel-item img {
+  width: 100%;
 }
 
 .carousel-item:after {
