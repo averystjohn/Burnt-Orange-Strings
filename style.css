@@ -250,18 +250,6 @@ i {
   }
 }
 
-#carouselExampleIndicators h1 {
-  color: #424874;
-  font-family: "Montserrat", sans-serif;
-  padding-bottom: 1rem;
-}
-
-@media (min-width: 768px) {
-  #carouselExampleIndicatorsn h1 {
-    padding-bottom: 2rem;
-  }
-}
-
 .carousel-item:after {
   content:"";
   position: absolute;
@@ -269,7 +257,6 @@ i {
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(10,0,30,0.1);
 }
 
 #hero-section,
