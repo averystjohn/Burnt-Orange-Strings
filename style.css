@@ -250,6 +250,11 @@ i {
   }
 }
 
+.carousel-item img {
+  max-width: 80%;
+  border: none;
+}
+
 .carousel-item:after {
   content:"";
   position: absolute;
