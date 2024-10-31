@@ -119,6 +119,7 @@ i {
   padding: 1em;
   font-family: Arial, sans-serif;
   margin-top: 2em;
+  font-size: 0.5vw;
 }
 
 .large-screen {
@@ -175,6 +176,10 @@ i {
   font-family: "New Rocker", system-ui;
   color: #ffffff;
   text-shadow: 1px 1px 2px #f8971f;
+}
+
+#about-section p {
+  font-size: 0.5vw;
 }
 
 @media (min-width: 768px) {
