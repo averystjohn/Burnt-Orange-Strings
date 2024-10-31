@@ -270,10 +270,10 @@ i {
 .carousel-item img {
   width: 100%;
   object-fit: contain;
-  height: 100%;
+  height: auto;
 }
 
-.carousel-item:after {
+/* .carousel-item:after {
   content:"";
   position: absolute;
   top: 0;
@@ -283,7 +283,7 @@ i {
   background: #bf5700;
   z-index: -1;
 }
-
+ */
 .carousel-wrapper {
   display: flex;
   justify-content: center;
