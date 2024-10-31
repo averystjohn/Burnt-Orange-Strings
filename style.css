@@ -264,6 +264,7 @@ i {
 
 .carousel-item img {
   width: 100%;
+  object-fit: contain;
 }
 
 .carousel-item:after {
