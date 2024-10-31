@@ -255,6 +255,7 @@ i {
   margin: auto;
   border: 5px solid #ffffff;
   border-radius: 15px;
+  overflow: hidden;
 }
 
 .carousel-wrapper {
