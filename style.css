@@ -240,6 +240,7 @@ i {
    #carouselExampleIndicators {
     padding-top: 2rem;
     margin-bottom: 3rem;
+    width: 80%;
   }
 }
 
@@ -251,7 +252,7 @@ i {
 }
 
 #carouselExampleIndicators {
-  max-width: 60% !important;
+  width: 60% !important;
   margin: auto;
   overflow: hidden;
 }
